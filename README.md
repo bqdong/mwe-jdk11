@@ -21,5 +21,11 @@ Download at https://jdk.java.net/java-se-ri/11-MR2
 
 - Maven version: 3.6.3
 
+4. Compile
+
+```bash
+mvn clean package
+```
+
 Finally, use OpenJDK 11 to compile, it will stuck at complie.
 
