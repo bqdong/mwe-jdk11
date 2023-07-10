@@ -6,7 +6,7 @@ Reproduce Steps:
 
 ```bash
 mvn install:install-file \
-    -Dtaobao-sdk-java-auto.jar \
+    -Dfile=taobao-sdk-java-auto.jar \
     -DgroupId=com.dingtalk.open \
     -DartifactId=taobao-sdk-java-auto \
     -Dversion=0.0.1 \
