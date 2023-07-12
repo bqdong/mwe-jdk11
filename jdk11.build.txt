@@ -1,0 +1,635 @@
+Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+Maven home: /home/bqdong/.bin/apache-maven-3.6.3
+Java version: 11.0.0.1, vendor: Oracle Corporation, runtime: /home/bqdong/.bin/jdk-11.0.0.1
+Default locale: en_US, platform encoding: UTF-8
+OS name: "linux", version: "6.2.0-23-generic", arch: "amd64", family: "unix"
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: javax.annotation.* < plexus.core
+[DEBUG]   Imported: javax.annotation.security.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.inject.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.util.* < plexus.core
+[DEBUG]   Imported: javax.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[DEBUG]   Imported: org.fusesource.jansi.* < plexus.core
+[DEBUG]   Imported: org.slf4j.* < plexus.core
+[DEBUG]   Imported: org.slf4j.event.* < plexus.core
+[DEBUG]   Imported: org.slf4j.helpers.* < plexus.core
+[DEBUG]   Imported: org.slf4j.spi.* < plexus.core
+[DEBUG] Populating class realm maven.api
+[INFO] Error stacktraces are turned on.
+[DEBUG] Message scheme: color
+[DEBUG] Message styles: debug info warning error success failure strong mojo project
+[DEBUG] Reading global settings from /home/bqdong/.bin/apache-maven-3.6.3/conf/settings.xml
+[DEBUG] Reading user settings from /home/bqdong/.m2/settings.xml
+[DEBUG] Reading global toolchains from /home/bqdong/.bin/apache-maven-3.6.3/conf/toolchains.xml
+[DEBUG] Reading user toolchains from /home/bqdong/.m2/toolchains.xml
+[DEBUG] Using local repository at /home/bqdong/.m2/repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for /home/bqdong/.m2/repository
+[INFO] Scanning for projects...
+[DEBUG] Extension realms for project com.mycompany.app:my-app:jar:1.0-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: com.mycompany.app:my-app:jar:1.0-SNAPSHOT
+[DEBUG] Tasks:   [clean, package]
+[DEBUG] Style:   Regular
+[DEBUG] =======================================================================
+[INFO]
+[INFO] ----------------------< com.mycompany.app:my-app >----------------------
+[INFO] Building my-app 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       com.mycompany.app:my-app:1.0-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [compile, runtime, test]
+[DEBUG] Repositories (dependencies): [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Repositories (plugins)     : [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-clean-plugin:2.5:clean (default-clean)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <directory default-value="${project.build.directory}"/>
+  <excludeDefaultDirectories default-value="false">${clean.excludeDefaultDirectories}</excludeDefaultDirectories>
+  <failOnError default-value="true">${maven.clean.failOnError}</failOnError>
+  <followSymLinks default-value="false">${clean.followSymLinks}</followSymLinks>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <reportDirectory default-value="${project.reporting.outputDirectory}"/>
+  <retryOnError default-value="true">${maven.clean.retryOnError}</retryOnError>
+  <skip default-value="false">${clean.skip}</skip>
+  <testOutputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <verbose>${clean.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.6:resources (default-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString>${maven.resources.escapeString}</escapeString>
+  <escapeWindowsPaths default-value="true">${maven.resources.escapeWindowsPaths}</escapeWindowsPaths>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project default-value="${project}"/>
+  <resources default-value="${project.resources}"/>
+  <session default-value="${session}"/>
+  <supportMultiLineFiltering default-value="false">${maven.resources.supportMultiLineFiltering}</supportMultiLineFiltering>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.7.0:compile (default-compile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <compilePath default-value="${project.compileClasspathElements}"/>
+  <compileSourceRoots default-value="${project.compileSourceRoots}"/>
+  <compilerArgs>
+    <arg>-verbose</arg>
+    <arg>-Xlint:all,-options,-path</arg>
+  </compilerArgs>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <failOnWarning default-value="false">${maven.compiler.failOnWarning}</failOnWarning>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedSourcesDirectory default-value="${project.build.directory}/generated-sources/annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution default-value="${mojoExecution}"/>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <parameters default-value="false">${maven.compiler.parameters}</parameters>
+  <project default-value="${project}"/>
+  <projectArtifact default-value="${project.artifact}"/>
+  <release>${maven.compiler.release}</release>
+  <session default-value="${session}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skipMain>${maven.main.skip}</skipMain>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.5">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.5">${maven.compiler.target}</target>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.6:testResources (default-testResources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString>${maven.resources.escapeString}</escapeString>
+  <escapeWindowsPaths default-value="true">${maven.resources.escapeWindowsPaths}</escapeWindowsPaths>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project default-value="${project}"/>
+  <resources default-value="${project.testResources}"/>
+  <session default-value="${session}"/>
+  <skip>${maven.test.skip}</skip>
+  <supportMultiLineFiltering default-value="false">${maven.resources.supportMultiLineFiltering}</supportMultiLineFiltering>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.7.0:testCompile (default-testCompile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <compilePath default-value="${project.compileClasspathElements}"/>
+  <compileSourceRoots default-value="${project.testCompileSourceRoots}"/>
+  <compilerArgs>
+    <arg>-verbose</arg>
+    <arg>-Xlint:all,-options,-path</arg>
+  </compilerArgs>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <failOnWarning default-value="false">${maven.compiler.failOnWarning}</failOnWarning>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedTestSourcesDirectory default-value="${project.build.directory}/generated-test-sources/test-annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution default-value="${mojoExecution}"/>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <parameters default-value="false">${maven.compiler.parameters}</parameters>
+  <project default-value="${project}"/>
+  <release>${maven.compiler.release}</release>
+  <session default-value="${session}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skip>${maven.test.skip}</skip>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.5">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.5">${maven.compiler.target}</target>
+  <testPath default-value="${project.testClasspathElements}"/>
+  <testRelease>${maven.compiler.testRelease}</testRelease>
+  <testSource>${maven.compiler.testSource}</testSource>
+  <testTarget>${maven.compiler.testTarget}</testTarget>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test (default-test)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <argLine>${argLine}</argLine>
+  <basedir default-value="${basedir}"/>
+  <childDelegation default-value="false">${childDelegation}</childDelegation>
+  <classesDirectory default-value="${project.build.outputDirectory}"/>
+  <debugForkedProcess>${maven.surefire.debug}</debugForkedProcess>
+  <disableXmlReport default-value="false">${disableXmlReport}</disableXmlReport>
+  <enableAssertions default-value="true">${enableAssertions}</enableAssertions>
+  <excludedGroups>${excludedGroups}</excludedGroups>
+  <failIfNoSpecifiedTests>${surefire.failIfNoSpecifiedTests}</failIfNoSpecifiedTests>
+  <failIfNoTests>${failIfNoTests}</failIfNoTests>
+  <forkMode default-value="once">${forkMode}</forkMode>
+  <forkedProcessTimeoutInSeconds>${surefire.timeout}</forkedProcessTimeoutInSeconds>
+  <groups>${groups}</groups>
+  <junitArtifactName default-value="junit:junit">${junitArtifactName}</junitArtifactName>
+  <jvm>${jvm}</jvm>
+  <localRepository default-value="${localRepository}"/>
+  <objectFactory>${objectFactory}</objectFactory>
+  <parallel>${parallel}</parallel>
+  <parallelMavenExecution default-value="${session.parallel}"/>
+  <perCoreThreadCount default-value="true">${perCoreThreadCount}</perCoreThreadCount>
+  <pluginArtifactMap>${plugin.artifactMap}</pluginArtifactMap>
+  <pluginDescriptor default-value="${plugin}"/>
+  <printSummary default-value="true">${surefire.printSummary}</printSummary>
+  <projectArtifactMap>${project.artifactMap}</projectArtifactMap>
+  <redirectTestOutputToFile default-value="false">${maven.test.redirectTestOutputToFile}</redirectTestOutputToFile>
+  <remoteRepositories default-value="${project.pluginArtifactRepositories}"/>
+  <reportFormat default-value="brief">${surefire.reportFormat}</reportFormat>
+  <reportNameSuffix default-value="">${surefire.reportNameSuffix}</reportNameSuffix>
+  <reportsDirectory default-value="${project.build.directory}/surefire-reports"/>
+  <runOrder default-value="filesystem"/>
+  <skip default-value="false">${maven.test.skip}</skip>
+  <skipExec>${maven.test.skip.exec}</skipExec>
+  <skipTests default-value="false">${skipTests}</skipTests>
+  <test>${test}</test>
+  <testClassesDirectory default-value="${project.build.testOutputDirectory}"/>
+  <testFailureIgnore default-value="false">${maven.test.failure.ignore}</testFailureIgnore>
+  <testNGArtifactName default-value="org.testng:testng">${testNGArtifactName}</testNGArtifactName>
+  <testSourceDirectory default-value="${project.build.testSourceDirectory}"/>
+  <threadCount>${threadCount}</threadCount>
+  <trimStackTrace default-value="true">${trimStackTrace}</trimStackTrace>
+  <useFile default-value="true">${surefire.useFile}</useFile>
+  <useManifestOnlyJar default-value="true">${surefire.useManifestOnlyJar}</useManifestOnlyJar>
+  <useSystemClassLoader default-value="true">${surefire.useSystemClassLoader}</useSystemClassLoader>
+  <useUnlimitedThreads default-value="false">${useUnlimitedThreads}</useUnlimitedThreads>
+  <workingDirectory>${basedir}</workingDirectory>
+  <project default-value="${project}"/>
+  <session default-value="${session}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-jar-plugin:2.4:jar (default-jar)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <classesDirectory default-value="${project.build.outputDirectory}"/>
+  <defaultManifestFile default-value="${project.build.outputDirectory}/META-INF/MANIFEST.MF"/>
+  <finalName default-value="${project.build.finalName}">${jar.finalName}</finalName>
+  <forceCreation default-value="false">${jar.forceCreation}</forceCreation>
+  <outputDirectory default-value="${project.build.directory}"/>
+  <project default-value="${project}"/>
+  <session default-value="${session}"/>
+  <skipIfEmpty default-value="false">${jar.skipIfEmpty}</skipIfEmpty>
+  <useDefaultManifestFile default-value="false">${jar.useDefaultManifestFile}</useDefaultManifestFile>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=967502, ConflictMarker.markTime=317897, ConflictMarker.nodeCount=4, ConflictIdSorter.graphTime=599829, ConflictIdSorter.topsortTime=519230, ConflictIdSorter.conflictIdCount=3, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=4371968, ConflictResolver.conflictItemCount=3, DefaultDependencyCollector.collectTime=14259845, DefaultDependencyCollector.transformTime=9447813}
+[DEBUG] com.mycompany.app:my-app:jar:1.0-SNAPSHOT
+[DEBUG]    com.dingtalk.open:taobao-sdk-java-auto:jar:0.0.1:compile
+[DEBUG]    junit:junit:jar:4.11:test
+[DEBUG]       org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO]
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ my-app ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=28861, ConflictMarker.markTime=76163, ConflictMarker.nodeCount=3, ConflictIdSorter.graphTime=14673, ConflictIdSorter.topsortTime=14528, ConflictIdSorter.conflictIdCount=3, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=159948, ConflictResolver.conflictItemCount=3, DefaultDependencyCollector.collectTime=21238217, DefaultDependencyCollector.transformTime=382473}
+[DEBUG] org.apache.maven.plugins:maven-clean-plugin:jar:2.5
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.5
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.5
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.5
+[DEBUG]   Included: org.apache.maven.plugins:maven-clean-plugin:jar:2.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-clean-plugin:2.5:clean from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-clean-plugin:2.5, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@799f7e29]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-clean-plugin:2.5:clean' with basic configurator -->
+[DEBUG]   (f) directory = /home/bqdong/temp/java/my-app/target
+[DEBUG]   (f) excludeDefaultDirectories = false
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) followSymLinks = false
+[DEBUG]   (f) outputDirectory = /home/bqdong/temp/java/my-app/target/classes
+[DEBUG]   (f) reportDirectory = /home/bqdong/temp/java/my-app/target/site
+[DEBUG]   (f) retryOnError = true
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) testOutputDirectory = /home/bqdong/temp/java/my-app/target/test-classes
+[DEBUG] -- end configuration --
+[INFO] Deleting /home/bqdong/temp/java/my-app/target
+[INFO] Deleting directory /home/bqdong/temp/java/my-app/target/generated-sources/annotations
+[INFO] Deleting directory /home/bqdong/temp/java/my-app/target/generated-sources
+[INFO] Deleting directory /home/bqdong/temp/java/my-app/target/classes
+[INFO] Deleting directory /home/bqdong/temp/java/my-app/target/maven-status/maven-compiler-plugin/compile/default-compile
+[INFO] Deleting directory /home/bqdong/temp/java/my-app/target/maven-status/maven-compiler-plugin/compile
+[INFO] Deleting directory /home/bqdong/temp/java/my-app/target/maven-status/maven-compiler-plugin
+[INFO] Deleting directory /home/bqdong/temp/java/my-app/target/maven-status
+[INFO] Deleting directory /home/bqdong/temp/java/my-app/target
+[DEBUG] Skipping non-existing directory /home/bqdong/temp/java/my-app/target/classes
+[DEBUG] Skipping non-existing directory /home/bqdong/temp/java/my-app/target/test-classes
+[DEBUG] Skipping non-existing directory /home/bqdong/temp/java/my-app/target/site
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ my-app ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=402108, ConflictMarker.markTime=217723, ConflictMarker.nodeCount=77, ConflictIdSorter.graphTime=332502, ConflictIdSorter.topsortTime=41868, ConflictIdSorter.conflictIdCount=26, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=3224150, ConflictResolver.conflictItemCount=74, DefaultDependencyCollector.collectTime=114609511, DefaultDependencyCollector.transformTime=4270451}
+[DEBUG] org.apache.maven.plugins:maven-resources-plugin:jar:2.6
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6:compile
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:2.0.6:compile
+[DEBUG]          org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.6:compile
+[DEBUG]       commons-cli:commons-cli:jar:1.0:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]       classworlds:classworlds:jar:1.1:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-settings:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-model:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-monitor:jar:2.0.6:compile
+[DEBUG]    org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]       junit:junit:jar:3.8.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:2.0.5:compile
+[DEBUG]    org.apache.maven.shared:maven-filtering:jar:1.1:compile
+[DEBUG]       org.sonatype.plexus:plexus-build-api:jar:0.0.4:compile
+[DEBUG]    org.codehaus.plexus:plexus-interpolation:jar:1.13:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG]   Included: org.apache.maven.plugins:maven-resources-plugin:jar:2.6
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:2.0.5
+[DEBUG]   Included: org.apache.maven.shared:maven-filtering:jar:1.1
+[DEBUG]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.13
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.6:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.6, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@799f7e29]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.6:resources' with basic configurator -->
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = /home/bqdong/temp/java/my-app/target/classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: com.mycompany.app:my-app:1.0-SNAPSHOT @ /home/bqdong/temp/java/my-app/pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: /home/bqdong/temp/java/my-app/src/main/resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@64b7225f
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used {env.TERM=xterm-256color, java.specification.version=11, sun.cpu.isalist=, sun.arch.data.model=64, java.vendor.url=http://java.oracle.com/, env.HTTP_PROXY=http://127.0.0.1:7890, env.DEBUGINFOD_URLS=https://debuginfod.ubuntu.com , sun.boot.library.path=/home/bqdong/.bin/jdk-11.0.0.1/lib, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher -X clean package, jdk.debug=release, maven.version=3.6.3, java.specification.vendor=Oracle Corporation, java.version.date=2023-05-09, java.home=/home/bqdong/.bin/jdk-11.0.0.1, java.specification.name=Java Platform API Specification, java.vm.specification.vendor=Oracle Corporation, env.NVM_BIN=/home/bqdong/.nvm/versions/node/v16.16.0/bin, env.MANPATH=/usr/local/texlive/2023/texmf-dist/doc/man:/usr/local/texlive/2023/texmf-dist/doc/man:/usr/local/texlive/2023/texmf-dist/doc/man:/home/bqdong/.nvm/versions/node/v16.16.0/share/man:/usr/local/texlive/2023/texmf-dist/doc/man:, env.GJS_DEBUG_OUTPUT=stderr, env.STARSHIP_SHELL=bash, env.INPUT_METHOD=fcitx, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=11.0.0.1+3-5, env.PATH=/home/bqdong/.bin/apache-maven-3.6.3/bin:/home/bqdong/.bin/jdk-11.0.0.1/bin:/usr/local/texlive/2023/bin/x86_64-linux:/home/bqdong/.bin/nvim-linux64/bin/:/home/bqdong/.deno/bin:/home/bqdong/.bin/apache-maven-3.6.3/bin:/home/bqdong/.bin/jdk-17/bin:/usr/local/texlive/2023/bin/x86_64-linux:/home/bqdong/.bin/nvim-linux64/bin/:/home/bqdong/.deno/bin:/home/bqdong/.bin/apache-maven-3.6.3/bin:/home/bqdong/.bin/jdk-11.0.0.1/bin:/usr/local/texlive/2023/bin/x86_64-linux:/home/bqdong/.bin/nvim-linux64/bin/:/home/bqdong/.nvm/versions/node/v16.16.0/bin:/home/bqdong/.deno/bin:/usr/local/texlive/2023/bin/x86_64-linux:/home/bqdong/.bin/nvim-linux64/bin/:/home/bqdong/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/go/bin, env.LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:, file.encoding=UTF-8, env.LC_IDENTIFICATION=en_US.UTF-8, env.LC_NUMERIC=en_US.UTF-8, java.vendor.version=18.9, env._=/home/bqdong/.bin/apache-maven-3.6.3/bin/mvn, env.XDG_SESSION_DESKTOP=ubuntu-xorg, env.SHLVL=1, java.io.tmpdir=/tmp, java.version=11.0.0.1, env.ALACRITTY_WINDOW_ID=88080388, env.ALACRITTY_LOG=/tmp/Alacritty-8542.log, java.vm.specification.name=Java Virtual Machine Specification, java.awt.printerjob=sun.print.PSPrinterJob, env.SSH_AGENT_LAUNCHER=openssh, java.library.path=/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib, env.WINDOWPATH=2, java.vendor=Oracle Corporation, java.specification.maintenance.version=2, classworlds.conf=/home/bqdong/.bin/apache-maven-3.6.3/bin/m2.conf, sun.io.unicode.encoding=UnicodeLittle, env.XAUTHORITY=/run/user/1000/gdm/Xauthority, sun.desktop=gnome, env.SESSION_MANAGER=local/bqdong-20H1A05QCD:@/tmp/.ICE-unix/1845,unix/bqdong-20H1A05QCD:/tmp/.ICE-unix/1845, env.LANG=en_US.UTF-8, env.SDL_IM_MODULE=fcitx, env.LC_MONETARY=en_US.UTF-8, env.XDG_DATA_DIRS=/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop, user.timezone=, os.name=Linux, java.vm.specification.version=11, env.DISPLAY=:1, maven.compiler.source=11, user.home=/home/bqdong, env.COLORTERM=truecolor, env.GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, env.M2=/home/bqdong/.bin/apache-maven-3.6.3/bin, env.LANGUAGE=en_US:en, env.DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus, path.separator=:, os.version=6.2.0-23-generic, env.GIO_LAUNCHED_DESKTOP_FILE_PID=8542, env.GJS_DEBUG_TOPICS=JS ERROR;JS LOG, env.QTWEBENGINE_DICTIONARIES_PATH=/usr/share/hunspell-bdic/, java.vm.name=OpenJDK 64-Bit Server VM, env.LC_ADDRESS=en_US.UTF-8, env.SHELL=/bin/bash, env.LESSCLOSE=/usr/bin/lesspipe %s %s, env.GTK_MODULES=gail:atk-bridge, env.M2_HOME=/home/bqdong/.bin/apache-maven-3.6.3, env.ALACRITTY_SOCKET=/run/user/1000/Alacritty-:1-8542.sock, env.USERNAME=bqdong, os.arch=amd64, maven.multiModuleProjectDirectory=/home/bqdong/temp/java/my-app, env.DESKTOP_SESSION=ubuntu-xorg, env.MAVEN_PROJECTBASEDIR=/home/bqdong/temp/java/my-app, java.vm.info=mixed mode, env.SYSTEMD_EXEC_PID=1875, env.USER=bqdong, java.class.version=55.0, awt.toolkit=sun.awt.X11.XToolkit, sun.jnu.encoding=UTF-8, env.NVM_INC=/home/bqdong/.nvm/versions/node/v16.16.0/include/node, env.DEFAULTS_PATH=/usr/share/gconf/ubuntu-xorg.default.path, maven.build.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f), env.PAPERSIZE=letter, maven.home=/home/bqdong/.bin/apache-maven-3.6.3, env.STARSHIP_SESSION_KEY=2683423834176511, env.GIO_LAUNCHED_DESKTOP_FILE=/usr/share/applications/Alacritty.desktop, env.JAVA_HOME=/home/bqdong/.bin/jdk-11.0.0.1, env.GDMSESSION=ubuntu-xorg, file.separator=/, java.vm.compressedOopsMode=Zero based, line.separator=
+, env.MANAGERPID=1597, env.GNOME_DESKTOP_SESSION_ID=this-is-deprecated, env.LC_TELEPHONE=en_US.UTF-8, env.WINDOWID=88080388, user.name=bqdong, env.LC_TIME=en_US.UTF-8, env.LOGNAME=bqdong, env.SSH_AUTH_SOCK=/run/user/1000/keyring/ssh, env.DENO_INSTALL=/home/bqdong/.deno, env.XDG_RUNTIME_DIR=/run/user/1000, env.XMODIFIERS=@im=fcitx, sun.os.patch.level=unknown, env.LIBVIRT_DEFAULT_URI=qemu:///system, maven.compiler.target=11, env.XDG_SESSION_TYPE=x11, env.INFOPATH=/usr/local/texlive/2023/texmf-dist/doc/info:/usr/local/texlive/2023/texmf-dist/doc/info:/usr/local/texlive/2023/texmf-dist/doc/info:/usr/local/texlive/2023/texmf-dist/doc/info:, library.jansi.path=/home/bqdong/.bin/apache-maven-3.6.3/lib/jansi-native, env.XDG_SESSION_CLASS=user, env.OLDPWD=/home/bqdong/temp/java/my-app, env.LC_MEASUREMENT=en_US.UTF-8, env.PWD=/home/bqdong/temp/java/my-app, env.LESSOPEN=| /usr/bin/lesspipe %s, env.LC_NAME=en_US.UTF-8, java.class.path=/home/bqdong/.bin/apache-maven-3.6.3/boot/plexus-classworlds-2.6.0.jar, env.HOME=/home/bqdong, env.QT_IM_MODULE=fcitx, java.vm.vendor=Oracle Corporation, env.LATEXMKRCSYS=/home/bqdong/.config/latexmk, maven.conf=/home/bqdong/.bin/apache-maven-3.6.3/conf, sun.java.launcher=SUN_STANDARD, user.country=US, env.QT_ACCESSIBILITY=1, sun.cpu.endian=little, env.JOURNAL_STREAM=8:32691, user.language=en, env.MANDATORY_PATH=/usr/share/gconf/ubuntu-xorg.mandatory.path, env.NVM_DIR=/home/bqdong/.nvm, env.ALL_PROXY=socks5://127.0.0.1:7890, env.INVOCATION_ID=14a2d509949d41b784aa05c61b862f06, env.RUSTUP_DIST_SERVER=https://mirrors.tuna.tsinghua.edu.cn/rustup, env.GTK_IM_MODULE=fcitx, env.LC_PAPER=en_US.UTF-8, env.XDG_MENU_PREFIX=gnome-, java.runtime.name=OpenJDK Runtime Environment, project.build.sourceEncoding=UTF-8, env.NVM_CD_FLAGS=, env.MAVEN_CMD_LINE_ARGS= -X clean package, java.vendor.url.bug=http://bugreport.java.com/bugreport/, env.HTTPS_PROXY=http://127.0.0.1:7890, env.XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu-xorg:/etc/xdg, user.dir=/home/bqdong/temp/java/my-app, env.XDG_CURRENT_DESKTOP=ubuntu:GNOME, java.vm.version=11.0.0.1+3-5, env.GNOME_SHELL_SESSION_MODE=ubuntu, env.RUSTUP_UPDATE_ROOT=https://mirrors.tuna.tsinghua.edu.cn/rustup/rustup}
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[DEBUG] resource with targetPath null
+directory /home/bqdong/temp/java/my-app/src/main/resources
+excludes []
+includes []
+[INFO] skip non existing resourceDirectory /home/bqdong/temp/java/my-app/src/main/resources
+[DEBUG] no use filter components
+[INFO]
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ my-app ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=480616, ConflictMarker.markTime=285440, ConflictMarker.nodeCount=118, ConflictIdSorter.graphTime=191290, ConflictIdSorter.topsortTime=78113, ConflictIdSorter.conflictIdCount=45, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=3300509, ConflictResolver.conflictItemCount=72, DefaultDependencyCollector.collectTime=224879463, DefaultDependencyCollector.transformTime=4384245}
+[DEBUG] org.apache.maven.plugins:maven-compiler-plugin:jar:3.7.0
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-model:jar:3.0:compile
+[DEBUG]       org.sonatype.sisu:sisu-inject-plexus:jar:1.4.2:compile
+[DEBUG]          org.sonatype.sisu:sisu-inject-bean:jar:1.4.2:compile
+[DEBUG]             org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:3.0:compile
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:2.0.4:compile
+[DEBUG]    org.apache.maven:maven-core:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-settings-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-model-builder:jar:3.0:compile
+[DEBUG]       org.apache.maven:maven-aether-provider:jar:3.0:runtime
+[DEBUG]       org.sonatype.aether:aether-impl:jar:1.7:compile
+[DEBUG]          org.sonatype.aether:aether-spi:jar:1.7:compile
+[DEBUG]       org.sonatype.aether:aether-api:jar:1.7:compile
+[DEBUG]       org.sonatype.aether:aether-util:jar:1.7:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.14:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.2.3:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.6:compile (version managed from default)
+[DEBUG]       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]          org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-utils:jar:3.1.0:compile
+[DEBUG]       commons-io:commons-io:jar:2.5:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-incremental:jar:1.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-java:jar:0.9.2:compile
+[DEBUG]       org.ow2.asm:asm:jar:6.0_BETA:compile
+[DEBUG]       com.thoughtworks.qdox:qdox:jar:2.0-M7:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-api:jar:2.8.2:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-manager:jar:2.8.2:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-javac:jar:2.8.2:runtime
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.7.0
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.7.0
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.7.0
+[DEBUG]   Included: org.apache.maven.plugins:maven-compiler-plugin:jar:3.7.0
+[DEBUG]   Included: org.sonatype.sisu:sisu-inject-bean:jar:1.4.2
+[DEBUG]   Included: org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:2.0.4
+[DEBUG]   Included: org.sonatype.aether:aether-util:jar:1.7
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.14
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.6
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:3.1.0
+[DEBUG]   Included: commons-io:commons-io:jar:2.5
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-incremental:jar:1.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-java:jar:0.9.2
+[DEBUG]   Included: org.ow2.asm:asm:jar:6.0_BETA
+[DEBUG]   Included: com.thoughtworks.qdox:qdox:jar:2.0-M7
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-api:jar:2.8.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-manager:jar:2.8.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-javac:jar:2.8.2
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:3.7.0:compile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.7.0, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@799f7e29]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:3.7.0:compile' with basic configurator -->
+[DEBUG]   (f) basedir = /home/bqdong/temp/java/my-app
+[DEBUG]   (f) buildDirectory = /home/bqdong/temp/java/my-app/target
+[DEBUG]   (f) compilePath = [/home/bqdong/temp/java/my-app/target/classes, /home/bqdong/.m2/repository/com/dingtalk/open/taobao-sdk-java-auto/0.0.1/taobao-sdk-java-auto-0.0.1.jar]
+[DEBUG]   (f) compileSourceRoots = [/home/bqdong/temp/java/my-app/src/main/java]
+[DEBUG]   (f) compilerArgs = [-verbose, -Xlint:all,-options,-path]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) failOnWarning = false
+[DEBUG]   (f) forceJavacCompilerUse = false
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedSourcesDirectory = /home/bqdong/temp/java/my-app/target/generated-sources/annotations
+[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.7.0:compile {execution: default-compile}
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = /home/bqdong/temp/java/my-app/target/classes
+[DEBUG]   (f) parameters = false
+[DEBUG]   (f) project = MavenProject: com.mycompany.app:my-app:1.0-SNAPSHOT @ /home/bqdong/temp/java/my-app/pom.xml
+[DEBUG]   (f) projectArtifact = com.mycompany.app:my-app:jar:1.0-SNAPSHOT
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@64b7225f
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) skipMultiThreadWarning = false
+[DEBUG]   (f) source = 11
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (f) target = 11
+[DEBUG]   (f) useIncrementalCompilation = true
+[DEBUG]   (f) verbose = false
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Adding /home/bqdong/temp/java/my-app/target/generated-sources/annotations to compile source roots:
+  /home/bqdong/temp/java/my-app/src/main/java
+[DEBUG] New compile source roots:
+  /home/bqdong/temp/java/my-app/src/main/java
+  /home/bqdong/temp/java/my-app/target/generated-sources/annotations
+[DEBUG] CompilerReuseStrategy: reuseCreated
+[DEBUG] useIncrementalCompilation enabled
+[DEBUG] Stale source detected: /home/bqdong/temp/java/my-app/src/main/java/com/mycompany/app/App.java
+[INFO] Changes detected - recompiling the module!
+[DEBUG] Classpath:
+[DEBUG]  /home/bqdong/temp/java/my-app/target/classes
+[DEBUG]  /home/bqdong/.m2/repository/com/dingtalk/open/taobao-sdk-java-auto/0.0.1/taobao-sdk-java-auto-0.0.1.jar
+[DEBUG] Source roots:
+[DEBUG]  /home/bqdong/temp/java/my-app/src/main/java
+[DEBUG]  /home/bqdong/temp/java/my-app/target/generated-sources/annotations
+[DEBUG] Command line options:
+[DEBUG] -d /home/bqdong/temp/java/my-app/target/classes -classpath /home/bqdong/temp/java/my-app/target/classes:/home/bqdong/.m2/repository/com/dingtalk/open/taobao-sdk-java-auto/0.0.1/taobao-sdk-java-auto-0.0.1.jar: -sourcepath /home/bqdong/temp/java/my-app/src/main/java:/home/bqdong/temp/java/my-app/target/generated-sources/annotations: -s /home/bqdong/temp/java/my-app/target/generated-sources/annotations -g -nowarn -target 11 -source 11 -encoding UTF-8 -verbose -Xlint:all,-options,-path
+[DEBUG] incrementalBuildHelper#beforeRebuildExecution
+[INFO] Compiling 1 source file to /home/bqdong/temp/java/my-app/target/classes
+[parsing started SimpleFileObject[/home/bqdong/temp/java/my-app/src/main/java/com/mycompany/app/App.java]]
+[parsing completed 19ms]
+[loading /modules/java.sql/module-info.class]
+[loading /modules/jdk.pack/module-info.class]
+[loading /modules/jdk.jstatd/module-info.class]
+[loading /modules/jdk.internal.jvmstat/module-info.class]
+[loading /modules/java.security.jgss/module-info.class]
+[loading /modules/java.smartcardio/module-info.class]
+[loading /modules/java.logging/module-info.class]
+[loading /modules/jdk.aot/module-info.class]
+[loading /modules/java.rmi/module-info.class]
+[loading /modules/jdk.crypto.ec/module-info.class]
+[loading /modules/java.se/module-info.class]
+[loading /modules/java.compiler/module-info.class]
+[loading /modules/java.transaction.xa/module-info.class]
+[loading /modules/jdk.attach/module-info.class]
+[loading /modules/jdk.unsupported.desktop/module-info.class]
+[loading /modules/java.naming/module-info.class]
+[loading /modules/jdk.internal.ed/module-info.class]
+[loading /modules/java.net.http/module-info.class]
+[loading /modules/jdk.rmic/module-info.class]
+[loading /modules/jdk.internal.vm.compiler/module-info.class]
+[loading /modules/java.xml/module-info.class]
+[loading /modules/jdk.management/module-info.class]
+[loading /modules/jdk.jartool/module-info.class]
+[loading /modules/jdk.net/module-info.class]
+[loading /modules/java.security.sasl/module-info.class]
+[loading /modules/jdk.unsupported/module-info.class]
+[loading /modules/jdk.zipfs/module-info.class]
+[loading /modules/java.scripting/module-info.class]
+[loading /modules/jdk.jshell/module-info.class]
+[loading /modules/jdk.crypto.cryptoki/module-info.class]
+[loading /modules/jdk.javadoc/module-info.class]
+[loading /modules/java.instrument/module-info.class]
+[loading /modules/jdk.compiler/module-info.class]
+[loading /modules/jdk.management.jfr/module-info.class]
+[loading /modules/java.prefs/module-info.class]
+[loading /modules/jdk.security.jgss/module-info.class]
+[loading /modules/jdk.jdeps/module-info.class]
+[loading /modules/jdk.jlink/module-info.class]
+[loading /modules/jdk.jfr/module-info.class]
+[loading /modules/jdk.httpserver/module-info.class]
+[loading /modules/jdk.internal.vm.compiler.management/module-info.class]
+[loading /modules/jdk.localedata/module-info.class]
+[loading /modules/jdk.charsets/module-info.class]
+[loading /modules/jdk.jdwp.agent/module-info.class]
+[loading /modules/jdk.jsobject/module-info.class]
+[loading /modules/jdk.dynalink/module-info.class]
+[loading /modules/jdk.internal.vm.ci/module-info.class]
+[loading /modules/jdk.internal.opt/module-info.class]
+[loading /modules/java.desktop/module-info.class]
+[loading /modules/jdk.xml.dom/module-info.class]
+[loading /modules/java.management.rmi/module-info.class]
+[loading /modules/jdk.editpad/module-info.class]
+[loading /modules/java.xml.crypto/module-info.class]
+[loading /modules/jdk.scripting.nashorn.shell/module-info.class]
+[loading /modules/jdk.internal.le/module-info.class]
+[loading /modules/java.sql.rowset/module-info.class]
+[loading /modules/jdk.naming.dns/module-info.class]
+[loading /modules/jdk.jcmd/module-info.class]
+[loading /modules/jdk.sctp/module-info.class]
+[loading /modules/jdk.accessibility/module-info.class]
+[loading /modules/jdk.management.agent/module-info.class]
+[loading /modules/java.base/module-info.class]
+[loading /modules/jdk.naming.rmi/module-info.class]
+[loading /modules/java.datatransfer/module-info.class]
+[loading /modules/jdk.jconsole/module-info.class]
+[loading /modules/jdk.jdi/module-info.class]
+[loading /modules/java.management/module-info.class]
+[loading /modules/jdk.scripting.nashorn/module-info.class]
+[loading /modules/jdk.security.auth/module-info.class]
+[loading /modules/jdk.hotspot.agent/module-info.class]
+[search path for source files: /home/bqdong/temp/java/my-app/src/main/java,/home/bqdong/temp/java/my-app/target/generated-sources/annotations]
+[search path for class files: /home/bqdong/.bin/jdk-11.0.0.1/lib/modules,/home/bqdong/temp/java/my-app/target/classes,/home/bqdong/.m2/repository/com/dingtalk/open/taobao-sdk-java-auto/0.0.1/taobao-sdk-java-auto-0.0.1.jar,.]
